@@ -15,6 +15,7 @@ An AI-powered CRM assistant that connects Google Gemini to Salesforce, delivered
 
 ## Project Structure
 
+'''bash
 crm_agent/
 |--- main.py # entry point
 |--- agent/core.py # Gemini agent loop and function calling
@@ -28,3 +29,4 @@ crm_agent/
 |--- scoring/lead_scoring.py # BANT lead scoring (in the future, add XGBoost prediction module)
 |--- memory/conversation.py # per-user chat history
 |--- api/server.py # FastAPI webhooks
+'''
