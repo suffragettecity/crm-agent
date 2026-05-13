@@ -1,7 +1,7 @@
 import httpx
 from config.settings import TELEGRAM_TOKEN
 
-TELEGRAM_API=f""
+TELEGRAM_API=f"https://api.telegram.org/gonncrmassistbot{TELEGRAM_TOKEN}"
 
 async def send_message(chat_id: int|str,text:str)-> None:
     """Send a text message to a Telegram chat"""
