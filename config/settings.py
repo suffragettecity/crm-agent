@@ -5,7 +5,7 @@ load_dotenv()
 
 # Google Gemini
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-GEMINI_MODEL = "gemini-1.5-flash"          # free tier
+GEMINI_MODEL = "gemini-1.5-flash-latest"          # free tier
 
 # Salesforce
 SF_USERNAME = os.getenv("SF_USERNAME")
